@@ -1,0 +1,65 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Four way race!</title>
+	<link type="text/css" rel="stylesheet" href="tbracegame.css"/>
+</head>
+<body>
+	<h1>Turtle vs. Rabbit vs. Monkey vs. Frog</h1>
+	<section class="animalPix">
+		<img class="animals" src="http://www.aux.tv/wp-content/uploads/2014/08/teenage-mutant-ninja-turtles.jpg"/>
+		<img class="animals" src="http://blogs.chriscubilla.com/goto/wp-content/uploads/2012/11/easter_bunny_hugh_3.jpg"/>
+		<img class="animals" src="http://www.beyondhollywood.com/uploads/2013/07/Caesar-in-Dawn-of-the-Planet-of-the-Apes-2014-Movie-Image.jpg"/>
+		<img class="animals" src="http://trendingcurrentevents.com/wp-content/uploads/2014/08/Kermit-the-Frog-Ice-Bucket-Challenge-Video.png"/>
+	</section>
+	<section id="animalInfo">
+		<h2>This is a race! The first animal to finish the 100-yard dash wins!</h2>
+			<table>
+				<tr id="animalNames">
+					<td></td>
+					<td>Turtle</td>
+					<td>Rabbit</td>
+					<td>Monkey</td>
+					<td>Frog</td>
+				</tr>
+				<tr class="attribute">
+					<td>Speed</td>
+					<td>2</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+				</tr>
+				<tr class="attribute">
+					<td>Focus</td>
+					<td>9</td>
+					<td>3</td>
+					<td>5</td>
+					<td>6</td>
+				</tr>
+			</table>
+	</section>
+	<section id="results">
+		<h3>The Results!</h3>
+		<p id="winwin">The winner is:  <span id="winner"></span></p>
+		<ul>
+			<li>The Turtle</li>
+				<ul>
+					<li id="turtleFinish"></li>
+				</ul>
+			<li>The Rabbit</li>
+				<ul>
+					<li id="rabbitFinish"></li>
+				</ul>
+			<li>The Monkey</li>
+				<ul>
+					<li id="monkeyFinish"></li>
+				</ul>
+			<li>The Frog</li>
+				<ul>
+					<li id="frogFinish"></li>
+				</ul>	
+		</ul>
+	</section>
+	<script src="tbracegame.js"></script>
+</body>
+</html>
